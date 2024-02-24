@@ -9,9 +9,6 @@ def obter_nome():
 
 
 nome = obter_nome()
-root = tk.Tk()
-root.withdraw()
-
 
 def ler_arquivo(arquivo,nome):
     try:
@@ -19,11 +16,11 @@ def ler_arquivo(arquivo,nome):
         with open(arquivo, "r") as f:
             texto = f.read()
 
-    # Inicializar o motor de texto para fala com a biblioteca pyttsx3
+        # Inicializar o motor de texto para fala com a biblioteca pyttsx3
         engine = pyttsx3.init()
         
-
-    # Configurar a voz
+        
+        # Configurar a voz
 
         engine.setProperty("voice", "pt-br")
         engine.setProperty("rate", 190)
