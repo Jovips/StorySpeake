@@ -18,7 +18,7 @@ Execute o programa executando o arquivo main.py. Ele solicitará que você insir
 3 - Após selecionar o arquivo, o programa lerá seu conteúdo em voz alta usando a voz configurada.
 
 ### Funcionalidades Adicionais
-Você pode ajustar a voz modificando as configurações dentro da função `ler_arquivo(arquivo,nome=str)`
+Você pode ajustar a voz modificando as configurações dentro da função `ler_arquivo(arquivo,nome)`
 ```bash
 def ler_arquivo(arquivo,nome):
     try:
