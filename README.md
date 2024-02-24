@@ -9,7 +9,14 @@ Certifique-se de ter Python instalado em seu sistema. Além disso, instale as se
 pip install pyttsx3
 ```
 ## Utilização
-Execute o programa executando o arquivo main.py. Ele solicitará que você insira seu nome e selecione um arquivo de texto para ler. O conteúdo do arquivo selecionado será lido em voz alta usando a voz configurada.
+### Clone o Repositorio
+
+```
+git clone https://github.com/Jovips/StorySpeake.git
+```
+
+
+Execute o programa executando o arquivo storyspeake.py Ele solicitará que você insira seu nome e selecione um arquivo de texto para ler. O conteúdo do arquivo selecionado será lido em voz alta usando a voz configurada.
 
 #### Como funciona ?
 - Após executado </br>
